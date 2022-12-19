@@ -9,10 +9,14 @@ import NotFound from './routes/NotFound';
 const App = () => {
   return (
     <>
-      <div className='navbar'>
-        <Link to='/'>Home</Link>
-        <Link to='/photos'>My Photos</Link>
-        <Link to='/add'>Add Photo</Link>
+      <div className="navbar">
+        <div className="studentInfo">
+          <h2 className="studentName">Alifa Maha Rizka</h2>
+          <p className="studentId">FE2986186</p>
+        </div>
+        <Link to="/">Home</Link>
+        <Link to="/photos">My Photos</Link>
+        <Link to="/add">Add Photo</Link>
       </div>
 
       <Routes>
